@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&display=swap');
+
+body, header, main {
+    height: 100%;
+    width: 100%;
+}
+
+nav {
+    background-color: black;
+    justify-content: space-around;
+}
+
+.navbar-brand {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 32px;
+}
+
+.navbar-brand-first{
+    margin-left: 10px;
+}
+
+.navbar-brand-second{
+    color: #FF9F40;
+}
+
+.navbar-nav .nav-link {
+    font-family: "Montserrat", sans-serif !important;
+    font-optical-sizing: auto !important;
+    font-weight: 300 !important;
+    font-style: normal !important;
+    font-size: 20px;
+    color: white;
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #FF9F40;
+}
+
+.nav-link{
+    margin-right: 20px;
+}
+
+.navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;charset=UTF8,%3Csvg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath stroke="rgba%28255, 255, 255, 1%29" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E');
+}
+
+.navbar-brand img {
+    width: 100px;
+}
+
+.carousel-inner{
+    height: 500px;
+}
+
+.carousel-inner img{
+    transform: translateY(-20%);
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-caption{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-80%);
+    font-family: "Montserrat", sans-serif !important;
+    font-optical-sizing: auto !important;
+    font-weight: 300 !important;
+    font-style: normal !important;
+    color: white;
+    transition: color 0.3s;
+    text-shadow: 1px 1px 10px black;
+}
+
+.product-section{
+    background-color: #383838;
+    text-align: center;
+}
+
+.product-section img{
+    background: transparent;
+}
+
+.product-section p {
+    font-family: "Montserrat", sans-serif !important;
+    font-optical-sizing: auto !important;
+    font-weight: 300 !important;
+    font-style: normal !important;
+    color: white;
+}
+
+.featured-review{
+    background-size: cover;
+    background: url("https://origincdnv2.blob.core.windows.net/img/home/featured-review-chronos-pc-ec-mag.jpg") 100% 50% no-repeat;
+}
+
+.review-section{
+    font-family: "Montserrat", sans-serif !important;
+    font-optical-sizing: auto !important;
+    font-weight: 300 !important;
+    font-style: normal !important;
+}
+
+.social a{
+    font-size: 4em;
+    padding: 10px;
+}
+
+.bi-facebook{
+    color: #3b5998;
+}
+.bi-instagram{
+    color: #517fa4;
+}
+.bi-twitter-x{
+    color: white;
+    height: 64px;
+    width: 64px;
+}
+.bi-youtube{
+    color: red;
+}
+
+.bi-youtube:hover, .bi-twitter-x:hover, .bi-instagram:hover, .bi-facebook:hover{
+    color: #ccc;
+}
+
+footer {
+    background-color: #3f3f3f;
+    padding-top: 50px;
+    color: white;
+    text-align: center;
+}
